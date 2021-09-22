@@ -59,9 +59,9 @@ h2 {
   color: #f9faf8;
   font-weight: 800;
 }
-#signup-btn {
+.signup-btn {
   padding: 5px 25px;
-  background-color: rgb(26, 141, 194);
+  background-color: #3882f6;
   color: white;
   border-radius: 5px;
   border: none;
@@ -71,7 +71,7 @@ h2 {
 .ilustration-placeholder {
   height: 150px;
   width: 150px;
-  border: 5px solid rgb(26, 141, 194);
+  border: 5px solid #3882f6;
   border-radius: 10px;
 }
 
@@ -106,4 +106,33 @@ h2 {
 .sign {
   align-self: flex-end;
   font-size: 24px;
+}
+.extended-btn {
+  display: flex;
+  background-color: #3882f6;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  justify-content: space-between;
+  padding: 30px 100px;
+  border-radius: 10px;
+  align-items: center;
+  color: #eeee;
+}
+.bold {
+  font-weight: bold;
+}
+.extended-btn-text {
+  margin: 5px;
+}
+.extended-btn .signup-btn {
+  border: 1px solid #eeeeee;
+}
+
+footer {
+  background-color: #1f2937;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #e5e7eb;
+  padding: 10px;
 }
